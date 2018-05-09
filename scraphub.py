@@ -41,7 +41,7 @@ for n in range(len(contributors_unique)):
 
 if __name__ == "__main__":
     print(Back.BLUE +"ALL-TIME CONTRIBUTORS" + Style.RESET_ALL)
-    print(Back.GREEN + "{:<20} {:<30} {}".format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
+    print(Back.GREEN + "{:<20} {:<30} {:<30}".format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
     for contributor in all_contributors:
         print("{:<30} {:<30} {}".format(contributor,
                                         all_contributors[contributor][0],

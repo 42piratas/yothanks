@@ -32,7 +32,7 @@ if __name__ == "__main__":
     sendthanksto(recipients)
 
     print(Back.BLUE + "THANKS SENT TO" + Style.RESET_ALL)
-    print(Back.GREEN + "{:<30} {:<30} {}"
+    print(Back.GREEN + "{:<30} {:<30} {:<30}"
           .format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
 
     for recipient in recipients:
