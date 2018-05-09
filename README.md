@@ -6,6 +6,7 @@
 - Add tests
 - Document
 - Only add users to list of all-time contributors after sending them an email
+- Separate new contributors without public email
 - Deal with exceptions
 - Security practices regarding access to GH
 - Security practices regarding access to SMPT
