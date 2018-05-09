@@ -12,4 +12,4 @@
 - Security practices regarding access to GH
 - Security practices regarding access to SMPT
 - Test in a bigger domain of repositories
-- Write a 'how-to'
+- Write a decent README witha  proper 'how-to'
