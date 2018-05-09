@@ -1,4 +1,4 @@
-# yothanks
+# yo, thanks!
 
 ### To-do
 - Recreate everything in a venv
