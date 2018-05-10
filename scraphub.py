@@ -3,7 +3,7 @@ This script outputs a dictionary containing all-time contributors
 from all repositories linked to the authentication data provided
 '''
 
-from github import Github
+from github import Github #http://pygithub.readthedocs.io
 from itertools import chain
 from never_data import secret3
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
@@ -40,10 +40,17 @@ for n in range(len(contributors_unique)):
     all_contributors[contributors_unique[n].login] = [contributors_unique[n].name, contributors_unique[n].email]
 
 if __name__ == "__main__":
-    print(Back.BLUE +"ALL-TIME CONTRIBUTORS" + Style.RESET_ALL)
-    print(Back.GREEN + "{:<20} {:<30} {:<30}".format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
+    print('\n')
+    print(Back.BLUE + "ALL-TIME CONTRIBUTORS" + Style.RESET_ALL)
+
+    print('\n')
+    repositories = [r.name for r in repos]
+    print(Back.RED + "REPOS: {}".format(repositories) + Style.RESET_ALL)
+
+    print('\n')
+    print(Back.GREEN + "{:<30} {:<30} {:<40}".format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
     for contributor in all_contributors:
         print("{:<30} {:<30} {}".format(contributor,
                                         all_contributors[contributor][0],
                                         all_contributors[contributor][1]))
-    print('n' * 2)
+    print('\n' * 2)

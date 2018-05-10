@@ -13,30 +13,42 @@ from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
 init() # initialise Colorama
 
-with open('contributors.json', 'r') as fp:
-    data_from_file = json.load(fp)
-
-# Create a dictionary with new contributors only
 new_contributors = {}
 
-for contributor in all_contributors:
-    if contributor not in data_from_file:
-        new_contributors[contributor] = [all_contributors[contributor][0], all_contributors[contributor][1]]
+def identifyNewContributors():
+    with open('contributors.json', 'r') as fp:
+        data_from_file = json.load(fp)
 
-# Save updated dictionary with all-time contributors to 'contributors.json'
-with open('contributors.json', 'w') as fp:
-      json.dump(all_contributors, fp, sort_keys=True, indent=4)
+        # Create a dictionary of new contributors only
+        for contributor in all_contributors:
+            if contributor not in data_from_file:
+                new_contributors[contributor] = [all_contributors[contributor][0],
+                                                 all_contributors[contributor][1]]
+
+    return new_contributors
+    return all_contributors
+
+def updateFileContributors():
+    # Save updated dictionary with all-time contributors to 'contributors.json'
+    with open('contributors.json', 'w') as fp:
+          json.dump(all_contributors, fp, sort_keys=True, indent=4)
 
 if __name__ == "__main__":
 
+    identifyNewContributors()
+
+    updateFileContributors()
+
     if bool(new_contributors) == False:
+        print('\n')
         print(Back.BLUE + "NO NEW CONTRIBUTORS :~(")
         print('\n')
         quit()
 
     else:
+        print('\n')
         print(Back.BLUE + "NEW CONTRIBUTORS" + Style.RESET_ALL)
-        print(Back.GREEN + "{:<30} {:<30} {:<30}"
+        print(Back.GREEN + "{:<30} {:<30} {:<40}"
               .format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
 
         for new_contributor in new_contributors:

@@ -4,7 +4,7 @@ Sends emails to a list of recipients
 
 import smtplib
 
-from never_data import secret1, secret2
+from never_data import secret1, secret2, secret3
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
 init() # initialise Colorama
@@ -19,8 +19,9 @@ def sendthanksto(recipients):
     sender = secret1
     message = "Message_you_need_to_send"
 
-    for recipient in recipients:
-        s.sendmail(sender, recipients[recipient][1], message)
+    # for recipient in recipients:
+    #     #s.sendmail(sender, recipients[recipient][1], message)
+    #     print(sender, recipients[recipient][1], message)
 
     s.quit()
 
@@ -28,13 +29,15 @@ if __name__ == "__main__":
 
     # Recipients must be a dictionary
     # where KEY=GH login && VALUE = [name, email]
-    recipients = {'test':['Test Name', 'anquadros+test@gmail.com']}
+    recipients = {}
+    recipients['test'] = ['Test Name', secret1]
     sendthanksto(recipients)
 
+    print('\n')
     print(Back.BLUE + "THANKS SENT TO" + Style.RESET_ALL)
+
     print(Back.GREEN + "{:<30} {:<30} {:<30}"
           .format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
-
     for recipient in recipients:
         print("{:<30} {:<30} {}".format(recipient,
                                         recipients[recipient][0],

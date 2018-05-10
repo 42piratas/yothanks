@@ -9,6 +9,7 @@
 - Security practices regarding access to GH
 - Security practices regarding access to SMPT
 - Deal with exceptions
+- Point out repos from collaboration
 - Test in a bigger domain of repositories
 - py.test
 - Document the code
