@@ -3,8 +3,8 @@
 ### To-do
 - Recreate everything in a venv
 - Restructure directories
-- Only add users to list of all-time contributors after sending them an email
-- Separate new contributors without public email
+~~Only add users to list of all-time contributors after sending them an email~~
+~~Point out new contributors without public email~~
 - Email content must come from a template/separate file with a placeholder for contributor.name
 - Security practices regarding access to GH
 - Security practices regarding access to SMPT

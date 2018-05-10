@@ -5,7 +5,7 @@ from all repositories linked to the authentication data provided
 
 from github import Github #http://pygithub.readthedocs.io
 from itertools import chain
-from never_data import secret3
+from never_share import secret3
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
 init() # initialise Colorama
