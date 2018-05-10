@@ -14,3 +14,4 @@
 - py.test
 - Document the code
 - Write a decent README witha  proper 'how-to'
+- Automatically updated README with the number of all-time contributors
