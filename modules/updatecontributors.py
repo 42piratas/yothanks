@@ -10,14 +10,14 @@ import json
 
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
-from .scraphub import all_contributors #full dictionary of contributors
+from modules.scraphub import all_contributors #full dictionary of contributors
 
 init() # initialise Colorama
 
 new_contributors = {}
 
 def identifyNewContributors():
-    with open('contributors.json', 'r') as fp:
+    with open('../ref/contributors.json', 'r') as fp:
         data_from_file = json.load(fp)
 
         # Create a dictionary of new contributors only
@@ -31,7 +31,7 @@ def identifyNewContributors():
 
 def updateFileContributors():
     # Save updated dictionary with all-time contributors to 'contributors.json'
-    with open('contributors.json', 'w') as fp:
+    with open('../ref/contributors.json', 'w') as fp:
           json.dump(all_contributors, fp, sort_keys=True, indent=4)
 
 if __name__ == "__main__":
@@ -41,13 +41,10 @@ if __name__ == "__main__":
     updateFileContributors()
 
     if bool(new_contributors) == False:
-        print('\n')
         print(Back.BLUE + "NO NEW CONTRIBUTORS :~(")
-        print('\n')
         quit()
 
     else:
-        print('\n')
         print(Back.BLUE + "NEW CONTRIBUTORS" + Style.RESET_ALL)
         print(Back.GREEN + "{:<30} {:<30} {:<40}"
               .format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
@@ -56,4 +53,3 @@ if __name__ == "__main__":
             print("{:<30} {:<30} {}".format(new_contributor,
                                             new_contributors[new_contributor][0],
                                             new_contributors[new_contributor][1]))
-        print('\n')

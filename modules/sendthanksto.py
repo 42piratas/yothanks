@@ -6,7 +6,7 @@ import smtplib
 
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
-from never_share import secret1, secret2, secret3
+from nevershare_secrets import secret1, secret2
 
 init() # initialise Colorama
 

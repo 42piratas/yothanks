@@ -7,7 +7,7 @@ from github import Github #http://pygithub.readthedocs.io
 from itertools import chain
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
-from never_share import secret3
+from nevershare_secrets import secret3
 
 init() # initialise Colorama
 
@@ -44,14 +44,12 @@ if __name__ == "__main__":
     print('\n')
     print(Back.BLUE + "ALL-TIME CONTRIBUTORS" + Style.RESET_ALL)
 
-    print('\n')
     repositories = [r.name for r in repos]
     print(Back.RED + "REPOS: {}".format(repositories) + Style.RESET_ALL)
 
-    print('\n')
     print(Back.GREEN + "{:<30} {:<30} {:<40}".format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
     for contributor in all_contributors:
         print("{:<30} {:<30} {}".format(contributor,
                                         all_contributors[contributor][0],
                                         all_contributors[contributor][1]))
-    print('\n' * 2)
+    print('\n')

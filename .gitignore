@@ -101,4 +101,4 @@ ENV/
 .mypy_cache/
 
 #42piratas
-never_*.*
+nevershare_*.*
