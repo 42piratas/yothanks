@@ -17,7 +17,7 @@ init() # initialise Colorama
 new_contributors = {}
 
 def identifyNewContributors():
-    with open('modules/contributors.json', 'r') as fp:
+    with open('contributors.json', 'r') as fp:
         data_from_file = json.load(fp)
 
         # Create a dictionary of new contributors only
@@ -31,7 +31,7 @@ def identifyNewContributors():
 
 def updateFileContributors():
     # Save updated dictionary with all-time contributors to 'contributors.json'
-    with open('modules/contributors.json', 'w') as fp:
+    with open('contributors.json', 'w') as fp:
           json.dump(all_contributors, fp, sort_keys=True, indent=4)
 
 if __name__ == "__main__":

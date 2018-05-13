@@ -7,7 +7,7 @@ from github import Github #http://pygithub.readthedocs.io
 from itertools import chain
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
-from .never_share import secret3
+from never_share import secret3
 
 init() # initialise Colorama
 
