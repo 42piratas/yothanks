@@ -1,8 +1,6 @@
 # yo, thanks!
 
 ### To-do
-- Recreate everything in a venv
-- Restructure directories
 - ~~Only add contributors to the list of all-time contributors after sending them an email~~
 - ~~Point out new contributors without public email~~
 - Email content must come from a template/separate file with a placeholder for contributor.name
@@ -15,3 +13,4 @@
 - Document the code
 - Write a decent README witha  proper 'how-to'
 - Automatically updated README with the number of all-time contributors
+- Reorganize and pack
