@@ -1,6 +1,7 @@
-from updatecontributors import *
-from sendthanksto import sendthanksto
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
+
+from modules.updatecontributors import *
+from modules.sendthanksto import sendthanksto
 
 init() # initialise Colorama
 

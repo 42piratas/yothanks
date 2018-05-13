@@ -4,8 +4,9 @@ Sends emails to a list of recipients
 
 import smtplib
 
-from never_share import secret1, secret2, secret3
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
+
+from .never_share import secret1, secret2, secret3
 
 init() # initialise Colorama
 
