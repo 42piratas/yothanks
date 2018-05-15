@@ -27,8 +27,8 @@ githubtoken = "your_GitHub_Access_Token_here"
 - Update the file `thanks_template.txt` from the folder `ref` as you wish
 - Access the folder `modules` and run `yo_thanks.py`
 ```
-cd modules
-python yo_thanks.py
+$ cd modules
+$ python yo_thanks.py
 ```
 
 ## Test Mode instead?
