@@ -36,4 +36,4 @@ You can run the different modules individually to check the process in test mode
 
 - Run `scraphub.py` to see the entire list of repositories scrapped and the list of all-time contributors from those. This module won't change anything in the file `contributors.json`.
 - Add a test email address to the file `secrets.py` as `test_email = "your@email.com"`, then run `send_thanks.py` to receive a test email at that address.
-- Run `update_contributors.py` to see the list of new contributors in the terminal. This module won't change anything in the file `contributors.json` (i.e. it won't really 'update contributors') and it won't send any emails to them either.
+- Run `update_contributors.py` to see the list of new contributors in the terminal. This module won't change anything in the file `contributors.json` (i.e. it won't really 'update contributors') and it won't send any emails either.
