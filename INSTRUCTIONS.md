@@ -31,7 +31,7 @@ $ cd modules
 $ python yo_thanks.py
 ```
 
-## Test Mode instead?
+## Test Mode
 You can run the different modules individually to check the process in test mode.
 
 - Run `scraphub.py` to see the entire list of repositories scrapped and the list of all-time contributors from those. This module won't change anything in the file `contributors.json`.
