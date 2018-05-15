@@ -15,12 +15,15 @@ $ pip install -r requirements.txt
 ```
 githubtoken = "your_GitHub_Access_Token_here"
 ```
+<!--
 - Run a Python interpreter and run the following to register your GMail credentials with [yagmail](http://yagmail.readthedocs.io/en/latest/setup.html):
 ```
->>> import yagmail
->>> yagmail.register('your_gmail_username','your_gmail_password')
+ import yagmail
+ yagmail.register('your_gmail_username','your_gmail_password')
 ```
-- For extra safety, create a `.yagmail` file in your home folder, containing only `your_gmail_username`
+  - For extra safety, create a `.yagmail` file in your home folder, containing only `your_gmail_username`
+--->
+
 - Update the file `thanks_template.txt` from the folder `ref` as you wish
 - Access the folder `modules` and run `yo_thanks.py`
 ```
