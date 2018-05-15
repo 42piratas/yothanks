@@ -45,9 +45,11 @@ if __name__ == "__main__":
 
     if bool(new_contributors) == False:
         print(Back.BLUE + "NO NEW CONTRIBUTORS :~(")
+        print('\n')
         quit()
 
     else:
+        print('\n')
         print(Back.BLUE + "NEW CONTRIBUTORS" + Style.RESET_ALL)
         print(Back.GREEN + "{:<30} {:<30} {:<40}"
               .format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
@@ -56,3 +58,4 @@ if __name__ == "__main__":
             print("{:<30} {:<30} {}".format(new_contributor,
                                             new_contributors[new_contributor][0],
                                             new_contributors[new_contributor][1]))
+        print('\n')
