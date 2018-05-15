@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     identifyNewContributors()
 
-#    updateFileContributors()
+    updateFileContributors()
 
     if bool(new_contributors) == False:
         print(Back.BLUE + "NO NEW CONTRIBUTORS :~(")
