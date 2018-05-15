@@ -1,7 +1,9 @@
 # yo, thanks!
 
+YoThanks scraps all repostiories linked to a certain GitHub Access Token and captures the names and (public) emails of all people who contributed to those repos. Then it compares the list with the file `contributors.json` to check if there's any new contributor since the last time it ran --- and for these new contributors, if any, the application sends an email based on the template from `thanks_template.txt`. 
+
 ## How-to
-Check [INSTRUCTIONS.md](https://github.com/42piratas/yothanks/blob/master/INSTRUCTIONS.md)
+Please, check [INSTRUCTIONS.md](https://github.com/42piratas/yothanks/blob/master/INSTRUCTIONS.md)
 
 ## To-do
 - ~~Only add contributors to the list of all-time contributors after sending them an email~~

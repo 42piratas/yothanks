@@ -1,3 +1,5 @@
+# Instructions
+
 - Requires [Python 3](https://www.python.org/downloads/)
 - It might require that you allow less secure apps on your Gmail account > https://myaccount.google.com/lesssecureapps
 - Clone this repository and install the requirements
@@ -20,14 +22,15 @@ githubtoken = "your_GitHub_Access_Token_here"
 ```
 - Create a `.yagmail` file in your home folder, containing only `your_gmail_username`
 - Update the file `thanks_template.txt` from the folder `ref` as you wish
-- In the folder modules, `run yo_thanks.py`
+- Access the folder `modules` and run `yo_thanks.py`
 ```
+cd modules
 python yo_thanks.py
 ```
 
 ## Test Mode
 You can run the different modules individually to check the process in test mode.
 
-- Run `scraphub.py` to check the repositories analyzed and the list of all-time contributors. This module won't change the `contributors.json` file.
-- Add a test email address to the `secrets.py` file as `test_email = "your@email.com"`, then run `send_thanks.py`to receive an test email on that address.
-- Run `update_contributors.py` to see the list of new contributors in the shell. This module won't change the file `contributors.json` either.
+- Run `scraphub.py` to check the repositories analyzed and the list of all-time contributors. This module won't change anything in the file `contributors.json`.
+- Add a test email address to the file `secrets.py` as `test_email = "your@email.com"`, then run `send_thanks.py` to receive a test email at that address.
+- Run `update_contributors.py` to see the list of new contributors in the terminal. This module won't change anything in the file `contributors.json` either.
