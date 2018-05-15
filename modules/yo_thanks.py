@@ -1,7 +1,7 @@
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
 from update_contributors import *
-from send_thanks import sendthanksto
+from send_thanks import send_thanks
 
 init() # initialise Colorama
 
@@ -24,7 +24,7 @@ for contributor in new_contributors:
 
 if bool(new_contributors_with_email) == True:
 
-    sendthanksto(new_contributors_with_email)
+    send_thanks(new_contributors_with_email)
 
     print('\n')
 

@@ -23,7 +23,7 @@ repos = octocat.get_user().get_repos()
 # Create a list  with all contributors
 # Note that this list cointains nested lists
 contributors = [[_contributor for _contributor in _repo.get_collaborators()]
-                for _repo in repos]
+                for _repo in repos] 
 
 # Remove the nested lists, but keeps all itens within the root list
 # Note that all itens are instances of <class 'github.NamedUser.NamedUser'>
