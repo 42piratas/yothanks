@@ -1,5 +1,7 @@
 '''
 Sends emails to a list of recipients
+Note that "recipients" must be a dictionary
+where KEY=GH login && VALUE = [name, email]
 '''
 
 import yagmail #https://github.com/kootenpv/yagmail
@@ -7,7 +9,7 @@ import yagmail #https://github.com/kootenpv/yagmail
 from pathlib import Path
 from colorama import init, Back, Style #https://pypi.org/project/colorama
 
-from nevershare_secrets import secret1, secret2
+from secrets import test_email
 
 init() # initialise Colorama
 
@@ -18,21 +20,7 @@ thanks_template =  Path("../ref/thanks_template.txt")
 with open(thanks_template) as f:
     thanks_template = f.read()
 
-# Recipients must be a dictionary
-# where KEY=GH login && VALUE = [name, email]
 def send_thanks(recipients):
-
-    # s = smtplib.SMTP('smtp.gmail.com', 587)
-    # s.starttls()
-    # s.login(secret1, secret2)
-    # sender = secret1
-    # message = "Message_you_need_to_send"
-
-    # for recipient in recipients:
-    #     s.sendmail(sender, recipients[recipient][1], message)
-    #     print(sender, recipients[recipient][1], message)
-    #
-    # s.quit()
 
     yag = yagmail.SMTP()
 
@@ -43,10 +31,8 @@ def send_thanks(recipients):
 
 if __name__ == "__main__":
 
-    # Recipients must be a dictionary
-    # where KEY=GH login && VALUE = [name, email]
     recipients = {}
-    recipients['test'] = ['Test Name', secret1]
+    recipients['test'] = ['Test Name', test_email]
     send_thanks(recipients)
 
     print('\n')

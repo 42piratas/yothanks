@@ -29,9 +29,6 @@ def identifyNewContributors():
                 new_contributors[contributor] = [all_contributors[contributor][0],
                                                  all_contributors[contributor][1]]
 
-    # return new_contributors
-    # return all_contributors
-
 def updateFileContributors():
     # Save updated dictionary with all-time contributors to 'contributors.json'
     with open(contributors_file, 'w') as fp:
@@ -41,7 +38,7 @@ if __name__ == "__main__":
 
     identifyNewContributors()
 
-    updateFileContributors()
+#    updateFileContributors()
 
     if bool(new_contributors) == False:
         print(Back.BLUE + "NO NEW CONTRIBUTORS :~(")
