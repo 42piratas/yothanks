@@ -20,7 +20,7 @@ githubtoken = "your_GitHub_Access_Token_here"
 >>> import yagmail
 >>> yagmail.register('your_gmail_username','your_gmail_password')
 ```
-- Create a `.yagmail` file in your home folder, containing only `your_gmail_username`
+- For extra safety, create a `.yagmail` file in your home folder, containing only `your_gmail_username`
 - Update the file `thanks_template.txt` from the folder `ref` as you wish
 - Access the folder `modules` and run `yo_thanks.py`
 ```

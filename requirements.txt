@@ -1,3 +1,6 @@
 colorama==0.3.9
+entrypoints==0.2.3
+keyring==12.2.0
 PyGithub==1.39
 PyJWT==1.6.1
+yagmail==0.10.212
