@@ -8,16 +8,19 @@ and then updates 'contributors.json' with the new entries as well
 
 import json
 
+from pathlib import Path
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
-from modules.scraphub import all_contributors #full dictionary of contributors
+from scraphub import all_contributors #full dictionary of contributors
 
 init() # initialise Colorama
+
+contributors_file =  Path("../ref/contributors.json")
 
 new_contributors = {}
 
 def identifyNewContributors():
-    with open('../ref/contributors.json', 'r') as fp:
+    with open(contributors_file, 'r') as fp:
         data_from_file = json.load(fp)
 
         # Create a dictionary of new contributors only
@@ -26,12 +29,12 @@ def identifyNewContributors():
                 new_contributors[contributor] = [all_contributors[contributor][0],
                                                  all_contributors[contributor][1]]
 
-    return new_contributors
-    return all_contributors
+    # return new_contributors
+    # return all_contributors
 
 def updateFileContributors():
     # Save updated dictionary with all-time contributors to 'contributors.json'
-    with open('../ref/contributors.json', 'w') as fp:
+    with open(contributors_file, 'w') as fp:
           json.dump(all_contributors, fp, sort_keys=True, indent=4)
 
 if __name__ == "__main__":

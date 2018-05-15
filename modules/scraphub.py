@@ -3,16 +3,16 @@ This script outputs a dictionary containing all-time contributors
 from all repositories linked to the authentication data provided
 '''
 
-from github import Github #http://pygithub.readthedocs.io
 from itertools import chain
+from github import Github #http://pygithub.readthedocs.io
 from colorama import init, Back, Style #https://pypi.org/project/colorama/
 
-from nevershare_secrets import secret3
+from secrets import githubtoken
 
 init() # initialise Colorama
 
 # Authentication using GitHub access token
-octocat = Github(secret3)
+octocat = Github(githubtoken)
 
 # OR using username and password
 # g = Github("user", "password")
@@ -41,12 +41,14 @@ for n in range(len(contributors_unique)):
     all_contributors[contributors_unique[n].login] = [contributors_unique[n].name, contributors_unique[n].email]
 
 if __name__ == "__main__":
+    repositories = [r.name for r in repos]
+
+    print('\n')
+    print(Back.RED + "REPOSITORIES ANALYZED" + Style.RESET_ALL)
+    print(repositories)
+
     print('\n')
     print(Back.BLUE + "ALL-TIME CONTRIBUTORS" + Style.RESET_ALL)
-
-    repositories = [r.name for r in repos]
-    print(Back.RED + "REPOS: {}".format(repositories) + Style.RESET_ALL)
-
     print(Back.GREEN + "{:<30} {:<30} {:<40}".format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
     for contributor in all_contributors:
         print("{:<30} {:<30} {}".format(contributor,
