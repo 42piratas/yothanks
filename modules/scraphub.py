@@ -1,57 +1,49 @@
 '''
 This script outputs a dictionary containing all-time contributors
-from all repositories linked to the authentication data provided
+from all repositories linked to the GH Access Token provided
 '''
 
-from itertools import chain
-from github import Github #http://pygithub.readthedocs.io
-from colorama import init, Back, Style #https://pypi.org/project/colorama/
+from github import Github  # http://pygithub.readthedocs.io
+from colorama import init, Back, Style  # https://pypi.org/project/colorama
 
 from secrets import githubtoken
 
-init() # initialise Colorama
+init()  # initialise Colorama
 
-# Authentication using GitHub access token
+# Authentication using GitHub Access Token
 octocat = Github(githubtoken)
 
-# OR using username and password
-# g = Github("user", "password")
+# Get all repositories OWNED by the user
+gh_user = octocat.get_user()
+repos = [repo for repo in gh_user.get_repos()
+         if repo.owner.login == gh_user.login]
 
-# Get all repositories
-repos = octocat.get_user().get_repos()
+# Create a list with all-time contributors
+contributors = []
+for repo in repos:
+    for contributor in repo.get_collaborators():
+        if contributor not in contributors:
+            contributors.append(contributor)
 
-# Create a list  with all contributors
-# Note that this list cointains nested lists
-contributors = [[_contributor for _contributor in _repo.get_collaborators()]
-                for _repo in repos] 
+# Create a dictionary where KEY = GH_USERNAME : VALUE = [NAME, EMAIL]
+all_time_contributors = {}
+for n in range(len(contributors)):
+    all_time_contributors[contributors[n].login] = [
+        contributors[n].name, contributors[n].email]
 
-# Remove the nested lists, but keeps all itens within the root list
-# Note that all itens are instances of <class 'github.NamedUser.NamedUser'>
-contributors = list(chain.from_iterable(contributors))
-
-# Remove duplicates
-contributors_unique = list()
-for _contributor in contributors:
-    if _contributor not in contributors_unique:
-        contributors_unique.append(_contributor)
-
-# Create a dictionary where KEY = LOGIN, VALUE = [NAME, EMAIL]
-all_contributors = {}
-for n in range(len(contributors_unique)):
-    all_contributors[contributors_unique[n].login] = [contributors_unique[n].name, contributors_unique[n].email]
-
+# If called directly, outputs ALL-TIME-CONTRIBUTORS to the terminal
 if __name__ == "__main__":
     repositories = [r.name for r in repos]
 
     print('\n')
-    print(Back.RED + "REPOSITORIES ANALYZED" + Style.RESET_ALL)
+    print(Back.RED + "REPOSITORIES SCRAPPED" + Style.RESET_ALL)
     print(repositories)
 
     print('\n')
     print(Back.BLUE + "ALL-TIME CONTRIBUTORS" + Style.RESET_ALL)
-    print(Back.GREEN + "{:<30} {:<30} {:<40}".format('LOGIN','NAME','EMAIL') + Style.RESET_ALL)
-    for contributor in all_contributors:
+    print(Back.GREEN + "{:<30} {:<30} {:<40}".format('LOGIN', 'NAME', 'EMAIL') + Style.RESET_ALL)
+    for contributor in all_time_contributors:
         print("{:<30} {:<30} {}".format(contributor,
-                                        all_contributors[contributor][0],
-                                        all_contributors[contributor][1]))
+                                        all_time_contributors[contributor][0],
+                                        all_time_contributors[contributor][1]))
     print('\n')
