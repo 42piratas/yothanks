@@ -9,11 +9,12 @@ import yagmail #https://github.com/kootenpv/yagmail
 from pathlib import Path
 from colorama import init, Back, Style #https://pypi.org/project/colorama
 
-from secrets import test_email
+from secrets import test_email # only used for test mode
 
 init() # initialise Colorama
 
-email_subject = "MARKET Protocol - Welcome!" # Set your subject here!!!
+# SET THE EMAIL SUBJECT BELLOW!!!
+email_subject = "Thanks!"
 
 thanks_template =  Path("../ref/thanks_template.txt")
 
@@ -21,6 +22,8 @@ with open(thanks_template) as f:
     thanks_template = f.read()
 
 def send_thanks(recipients):
+    '''Sends an email according to a certain template to
+    each person included in a dictionary of recipients'''
 
     yag = yagmail.SMTP()
 
@@ -28,6 +31,8 @@ def send_thanks(recipients):
         txt = thanks_template.format(name=recipients[recipient][0])
         contents = [txt] # contents, attachments, to, cc, bcc -- all can be a list (plural) or a string (singular)
         yag.send(recipients[recipient][1], email_subject, contents)
+
+# TEST MODE
 
 if __name__ == "__main__":
 

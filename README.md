@@ -22,9 +22,9 @@ Please, check [INSTRUCTIONS.md](https://github.com/42piratas/yothanks/blob/maste
 - Test in a bigger domain of repositories
 - Add py.tests
 - Add logs
-- Document the code properly
+- ~~Document the code~~
 - Write a decent README with a proper 'how-to'
-- Automatically updated README with the number of all-time contributors
+- ~~Automatically updated README with the number of all-time contributors / WONTDO~~
 - Make it easier to setup
 - Add license
 - ~~Reorganize and pack~~
