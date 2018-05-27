@@ -1,0 +1,977 @@
+{
+    "42piratas": {
+        "email": "a@42p.me",
+        "name": "\u00e2ndrsnq",
+        "repos": [
+            "MARKETProtocol",
+            "ethereum-bridge",
+            "dApp",
+            "MARKETTracker",
+            "docs",
+            "market-api",
+            "community",
+            "MARKET.js"
+        ]
+    },
+    "Alejandro222": {
+        "email": null,
+        "name": "Alejandro Aguirre",
+        "repos": [
+            "docs"
+        ]
+    },
+    "ConnorChristie": {
+        "email": "christieck@msoe.edu",
+        "name": "Connor Christie",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "D-Nice": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "ethereum-bridge"
+        ]
+    },
+    "FloorLamp": {
+        "email": "me@nortonwang.com",
+        "name": "Norton Wang",
+        "repos": [
+            "docs"
+        ]
+    },
+    "I3uckwheat": {
+        "email": "briggse@protonmail.com",
+        "name": "Briggs Elsperger",
+        "repos": [
+            "MARKETProtocol",
+            "dApp"
+        ]
+    },
+    "ImgBotApp": {
+        "email": null,
+        "name": "ImgBot",
+        "repos": [
+            "website"
+        ]
+    },
+    "Jameskmonger": {
+        "email": "jameskmonger@hotmail.co.uk",
+        "name": "James Monger",
+        "repos": [
+            "docs"
+        ]
+    },
+    "JonnyBurger": {
+        "email": "hi@jonny.io",
+        "name": "Jonny Burger",
+        "repos": [
+            "website"
+        ]
+    },
+    "KennethAshley": {
+        "email": "ken.u.diggitt@gmail.com",
+        "name": "Kenneth Ashley",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "Lovelcp": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "docs"
+        ]
+    },
+    "MEGApixel23": {
+        "email": "megapixel23@gmail.com",
+        "name": "Ihor Omelchenko",
+        "repos": [
+            "docs"
+        ]
+    },
+    "Maks3w": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "docs"
+        ]
+    },
+    "NFhbar": {
+        "email": null,
+        "name": "Nicolas Frega",
+        "repos": [
+            "MARKETProtocol"
+        ]
+    },
+    "NicolasBonduel": {
+        "email": null,
+        "name": "Nicolas Bonduel",
+        "repos": [
+            "docs"
+        ]
+    },
+    "PotHix": {
+        "email": "pothix@pothix.com",
+        "name": "PotHix",
+        "repos": [
+            "docs"
+        ]
+    },
+    "ReadmeCritic": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "docs"
+        ]
+    },
+    "Rlord": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "docs"
+        ]
+    },
+    "Smona": {
+        "email": "mason.bourgeois@gmail.com",
+        "name": "Mason Bourgeois",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "StevenJNPearce": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "market-api"
+        ]
+    },
+    "agonzalezro": {
+        "email": "agonzalezro@gmail.com",
+        "name": "Alexandre Gonz\u00e1lez",
+        "repos": [
+            "docs"
+        ]
+    },
+    "akilb": {
+        "email": null,
+        "name": "Akil Burgess",
+        "repos": [
+            "docs"
+        ]
+    },
+    "alliedsteel": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "docs"
+        ]
+    },
+    "andreftavares": {
+        "email": null,
+        "name": "Andr\u00e9 Tavares",
+        "repos": [
+            "docs"
+        ]
+    },
+    "arkgast": {
+        "email": null,
+        "name": "Arnold Gandarillas Castillo",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "arun1595": {
+        "email": "arunkumarm1995@gmail.com",
+        "name": "Arun Kumar",
+        "repos": [
+            "dApp",
+            "docs",
+            "website"
+        ]
+    },
+    "benwilhelm": {
+        "email": null,
+        "name": "Ben",
+        "repos": [
+            "docs"
+        ]
+    },
+    "bertani": {
+        "email": "mail@thomasbertani.it",
+        "name": "Thomas Bertani",
+        "repos": [
+            "ethereum-bridge"
+        ]
+    },
+    "blackxored": {
+        "email": "adrian@adrianperez.org",
+        "name": "Adrian Perez",
+        "repos": [
+            "docs"
+        ]
+    },
+    "bootstraponline": {
+        "email": "code@bootstraponline.com",
+        "name": null,
+        "repos": [
+            "docs"
+        ]
+    },
+    "bradysheridan": {
+        "email": "brady.sherid@gmail.com",
+        "name": "Brady Sheridan",
+        "repos": [
+            "website"
+        ]
+    },
+    "brentoneill": {
+        "email": null,
+        "name": "Brent O'Neill",
+        "repos": [
+            "dApp",
+            "website"
+        ]
+    },
+    "brettporter": {
+        "email": "brett@apache.org",
+        "name": "Brett Porter",
+        "repos": [
+            "docs"
+        ]
+    },
+    "capablemonkey": {
+        "email": "technix1@gmail.com",
+        "name": "Gordon Zheng",
+        "repos": [
+            "docs"
+        ]
+    },
+    "chrissrogers": {
+        "email": null,
+        "name": "Christopher Rogers",
+        "repos": [
+            "docs"
+        ]
+    },
+    "coliff": {
+        "email": null,
+        "name": "Christian Oliff",
+        "repos": [
+            "docs"
+        ]
+    },
+    "craig-iam-smith": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "MARKETProtocol"
+        ]
+    },
+    "cryptomental": {
+        "email": null,
+        "name": "CryptoMental",
+        "repos": [
+            "MARKETProtocol",
+            "ethereum-bridge",
+            "dApp",
+            "docs"
+        ]
+    },
+    "cvkef": {
+        "email": "valantis@cvk.gr",
+        "name": "Chrisovalantis Kefalidis",
+        "repos": [
+            "docs"
+        ]
+    },
+    "davidstanley01": {
+        "email": null,
+        "name": "David Stanley",
+        "repos": [
+            "docs"
+        ]
+    },
+    "detain": {
+        "email": "detain@interserver.net",
+        "name": "Joe Huss",
+        "repos": [
+            "docs"
+        ]
+    },
+    "diego0037": {
+        "email": null,
+        "name": "Diego",
+        "repos": [
+            "docs"
+        ]
+    },
+    "djpowers": {
+        "email": null,
+        "name": "Dave Powers",
+        "repos": [
+            "docs"
+        ]
+    },
+    "dlackty": {
+        "email": null,
+        "name": "Richard Lee",
+        "repos": [
+            "docs"
+        ]
+    },
+    "dmyers": {
+        "email": null,
+        "name": "Derek Myers",
+        "repos": [
+            "docs"
+        ]
+    },
+    "dreday966": {
+        "email": "492591061@qq.com",
+        "name": "dreday",
+        "repos": [
+            "website"
+        ]
+    },
+    "ecaron": {
+        "email": "eric.caron@gmail.com",
+        "name": "Eric Caron",
+        "repos": [
+            "docs"
+        ]
+    },
+    "eliat123": {
+        "email": "eliat123@gmail.com",
+        "name": "Eli Atzaba",
+        "repos": [
+            "docs"
+        ]
+    },
+    "eswarasai": {
+        "email": "eswarasai.v@gmail.com",
+        "name": "Eswara Sai",
+        "repos": [
+            "dApp",
+            "website"
+        ]
+    },
+    "evanscloud": {
+        "email": "contact@evanng.com",
+        "name": "Evan Ng",
+        "repos": [
+            "docs"
+        ]
+    },
+    "evantahler": {
+        "email": null,
+        "name": "Evan Tahler",
+        "repos": [
+            "docs"
+        ]
+    },
+    "evilstickman": {
+        "email": null,
+        "name": "Matt Billock",
+        "repos": [
+            "docs"
+        ]
+    },
+    "fermayo": {
+        "email": "fermayo@gmail.com",
+        "name": "Fernando Mayo",
+        "repos": [
+            "docs"
+        ]
+    },
+    "fouad": {
+        "email": null,
+        "name": "Fouad Matin",
+        "repos": [
+            "docs"
+        ]
+    },
+    "gabrielf": {
+        "email": null,
+        "name": "Gabriel Falkenberg",
+        "repos": [
+            "docs"
+        ]
+    },
+    "germanattanasio": {
+        "email": "germanattanasio@gmail.com",
+        "name": "German Attanasio",
+        "repos": [
+            "docs"
+        ]
+    },
+    "gr2m": {
+        "email": null,
+        "name": "Gregor Martynus",
+        "repos": [
+            "docs"
+        ]
+    },
+    "greenhost87": {
+        "email": null,
+        "name": "Vladimir Morozov",
+        "repos": [
+            "docs"
+        ]
+    },
+    "halfcrazy": {
+        "email": "hackzhuyan@gmail.com",
+        "name": "halfcrazy",
+        "repos": [
+            "docs"
+        ]
+    },
+    "iamonuwa": {
+        "email": "iamonuwa@shareqube.com",
+        "name": "Onuwa Nnachi Isaac",
+        "repos": [
+            "website"
+        ]
+    },
+    "idrabenia": {
+        "email": null,
+        "name": "Ilya Drabenia",
+        "repos": [
+            "ethereum-bridge"
+        ]
+    },
+    "imabusabah": {
+        "email": null,
+        "name": "Abdullah Hashim",
+        "repos": [
+            "docs"
+        ]
+    },
+    "imaginator": {
+        "email": "simon@imaginator.com",
+        "name": "Simon Tennant",
+        "repos": [
+            "docs"
+        ]
+    },
+    "intelliot": {
+        "email": "github.public@intelliot.com",
+        "name": "Elliot Lee",
+        "repos": [
+            "docs"
+        ]
+    },
+    "itsHarryEng": {
+        "email": "harry@harryeng.com",
+        "name": "Harry Eng",
+        "repos": [
+            "docs"
+        ]
+    },
+    "jaredtking": {
+        "email": "j@jaredtking.com",
+        "name": "Jared King",
+        "repos": [
+            "docs"
+        ]
+    },
+    "jaythomas": {
+        "email": null,
+        "name": "Jay Thomas",
+        "repos": [
+            "docs"
+        ]
+    },
+    "jintoppy": {
+        "email": "jintoppy@gmail.com",
+        "name": "Jinto Jose",
+        "repos": [
+            "website"
+        ]
+    },
+    "joelr": {
+        "email": "jo [ at ] easyjo [.] com",
+        "name": "Joel Richards",
+        "repos": [
+            "docs"
+        ]
+    },
+    "johnf": {
+        "email": "johnf@inodes.org",
+        "name": "John Ferlito",
+        "repos": [
+            "docs"
+        ]
+    },
+    "joshthewebgeek": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "docs"
+        ]
+    },
+    "joshuawoodward": {
+        "email": "jw@woodwardmedia.net",
+        "name": "Joshua Woodward",
+        "repos": [
+            "docs"
+        ]
+    },
+    "justpixel": {
+        "email": null,
+        "name": "Alexandru Solomon",
+        "repos": [
+            "docs"
+        ]
+    },
+    "kevin-buttercoin": {
+        "email": null,
+        "name": "Kevin Adams",
+        "repos": [
+            "docs"
+        ]
+    },
+    "kfichter": {
+        "email": "kelvinfichter@gmail.com",
+        "name": "Kelvin Fichter",
+        "repos": [
+            "ethereum-bridge"
+        ]
+    },
+    "kjg": {
+        "email": "kevin@glowacz.info",
+        "name": "Kevin Glowacz",
+        "repos": [
+            "docs"
+        ]
+    },
+    "kohenkatz": {
+        "email": null,
+        "name": "MK",
+        "repos": [
+            "docs"
+        ]
+    },
+    "koresar": {
+        "email": null,
+        "name": "Vasyl Boroviak",
+        "repos": [
+            "docs"
+        ]
+    },
+    "kpavlov": {
+        "email": null,
+        "name": "Konstantin Pavlov",
+        "repos": [
+            "docs"
+        ]
+    },
+    "kylewu": {
+        "email": "admin@wenbinwu.com",
+        "name": "Wenbin Wu",
+        "repos": [
+            "website"
+        ]
+    },
+    "lord": {
+        "email": "hello@lord.io",
+        "name": "Robert Lord",
+        "repos": [
+            "docs"
+        ]
+    },
+    "lukehoersten": {
+        "email": "luke@bitnomial.com",
+        "name": "Luke Hoersten",
+        "repos": [
+            "docs"
+        ]
+    },
+    "maektwain": {
+        "email": "saransh@theupscale.in",
+        "name": "Maek Twain",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "marcguyer": {
+        "email": null,
+        "name": "Marc Guyer",
+        "repos": [
+            "docs"
+        ]
+    },
+    "marcogiglio": {
+        "email": "marcogiglio@gmail.com",
+        "name": "Marco Giglio",
+        "repos": [
+            "ethereum-bridge"
+        ]
+    },
+    "martincik": {
+        "email": "ladislav@benloop.com",
+        "name": "Ladislav Martincik",
+        "repos": [
+            "MARKETProtocol"
+        ]
+    },
+    "martiuslim": {
+        "email": null,
+        "name": "Martius",
+        "repos": [
+            "docs"
+        ]
+    },
+    "mattes": {
+        "email": null,
+        "name": "Matthias Kadenbach",
+        "repos": [
+            "docs"
+        ]
+    },
+    "mdlima": {
+        "email": null,
+        "name": "Marcio",
+        "repos": [
+            "docs"
+        ]
+    },
+    "mfa": {
+        "email": null,
+        "name": "Andreas Madsack",
+        "repos": [
+            "docs"
+        ]
+    },
+    "mflaxman": {
+        "email": null,
+        "name": "Michael Flaxman",
+        "repos": [
+            "docs"
+        ]
+    },
+    "mhrabiee": {
+        "email": null,
+        "name": "Mohammad Hossein Rabiee",
+        "repos": [
+            "docs"
+        ]
+    },
+    "moizjv": {
+        "email": null,
+        "name": "Moiz Virani",
+        "repos": [
+            "docs"
+        ]
+    },
+    "nepalbitcoin": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "ethereum-bridge"
+        ]
+    },
+    "netbe": {
+        "email": null,
+        "name": "Fran\u00e7ois Benaiteau",
+        "repos": [
+            "docs"
+        ]
+    },
+    "niftylettuce": {
+        "email": "niftylettuce@gmail.com",
+        "name": "niftylettuce",
+        "repos": [
+            "docs"
+        ]
+    },
+    "niksamokhvalov": {
+        "email": "nik@samokhvalov.info",
+        "name": "Nik Samokhvalov",
+        "repos": [
+            "docs"
+        ]
+    },
+    "nitinrgupta": {
+        "email": "nitinramachandragupta@gmail.com",
+        "name": "Nitin R Gupta",
+        "repos": [
+            "dApp",
+            "website"
+        ]
+    },
+    "nya1": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "ethereum-bridge"
+        ]
+    },
+    "panzarino": {
+        "email": "zach@panz.io",
+        "name": "Zach Panzarino",
+        "repos": [
+            "docs"
+        ]
+    },
+    "paulocoghi": {
+        "email": "paulo@coghi.com.br",
+        "name": "Paulo Coghi",
+        "repos": [
+            "docs"
+        ]
+    },
+    "pbechu": {
+        "email": "pb.bechu@gmail.com",
+        "name": "Pierre-Baptiste B\u00e9chu",
+        "repos": [
+            "docs"
+        ]
+    },
+    "pchuck": {
+        "email": null,
+        "name": "patrick charles",
+        "repos": [
+            "MARKETProtocol",
+            "dApp",
+            "meta",
+            "website",
+            "community"
+        ]
+    },
+    "pelsasser": {
+        "email": "phil@marketprotocol.io",
+        "name": "Phil Elsasser",
+        "repos": [
+            "MARKETProtocol",
+            "ethereum-bridge",
+            "dApp",
+            "MARKETTracker",
+            "docs",
+            "meta",
+            "website",
+            "market-api",
+            "community",
+            "MARKET.js"
+        ]
+    },
+    "perfectmak": {
+        "email": "damiperfect@gmail.com",
+        "name": "Perfect Makanju",
+        "repos": [
+            "MARKETProtocol",
+            "ethereum-bridge",
+            "dApp",
+            "website"
+        ]
+    },
+    "pfilippi24": {
+        "email": null,
+        "name": "Pascal",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "poffdeluxe": {
+        "email": "poffdeluxe@gmail.com",
+        "name": "Poff Poffenberger",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "pomier": {
+        "email": "romain@cardiologs.com",
+        "name": "Romain Pomier",
+        "repos": [
+            "docs"
+        ]
+    },
+    "pra85": {
+        "email": "prayag@stylifyyourblog.com",
+        "name": "Prayag Verma ",
+        "repos": [
+            "docs"
+        ]
+    },
+    "realityking": {
+        "email": null,
+        "name": "Rouven We\u00dfling",
+        "repos": [
+            "docs"
+        ]
+    },
+    "rexposadas": {
+        "email": "rexposadas@gmail.com",
+        "name": "rex posadas",
+        "repos": [
+            "docs"
+        ]
+    },
+    "rezanachmad": {
+        "email": "rezanachmad@gmail.com",
+        "name": "Rezan Achmad",
+        "repos": [
+            "docs"
+        ]
+    },
+    "ribice": {
+        "email": "ribice@gmail.com",
+        "name": "Emir Ribi\u0107",
+        "repos": [
+            "docs"
+        ]
+    },
+    "rickyrauch": {
+        "email": "rickyrauch@gmail.com",
+        "name": "Ricky Rauch",
+        "repos": [
+            "docs"
+        ]
+    },
+    "rnarian": {
+        "email": "marian.friedmann@gmail.com",
+        "name": "Marian Friedmann",
+        "repos": [
+            "docs"
+        ]
+    },
+    "rojosnow": {
+        "email": "robert@jordanjr.com",
+        "name": "Robert Jordan",
+        "repos": [
+            "MARKETProtocol",
+            "dApp",
+            "website",
+            "market-api",
+            "MARKET.js"
+        ]
+    },
+    "row2k": {
+        "email": "rowlandrzhang@gmail.com",
+        "name": "Rowland Zhang",
+        "repos": [
+            "website"
+        ]
+    },
+    "samdozor": {
+        "email": null,
+        "name": "Sam Dozor",
+        "repos": [
+            "docs"
+        ]
+    },
+    "saralarambhapuri": {
+        "email": "sarala.speed@gmail.com",
+        "name": "Sarala Rambhapuri",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "sbrandwoo": {
+        "email": null,
+        "name": "Steve Brandwood",
+        "repos": [
+            "docs"
+        ]
+    },
+    "sobstel": {
+        "email": "przemek@sobstel.org",
+        "name": "Przemek Sobstel",
+        "repos": [
+            "docs"
+        ]
+    },
+    "stetzer": {
+        "email": "stetzer@gmail.com",
+        "name": "Mark Stetzer",
+        "repos": [
+            "docs"
+        ]
+    },
+    "styloa": {
+        "email": null,
+        "name": "Adam Stylo",
+        "repos": [
+            "docs"
+        ]
+    },
+    "swarzech": {
+        "email": null,
+        "name": "Stefanie",
+        "repos": [
+            "docs"
+        ]
+    },
+    "tinybike": {
+        "email": "jack@tinybike.net",
+        "name": "Jack Peterson",
+        "repos": [
+            "docs"
+        ]
+    },
+    "tschoffelen": {
+        "email": "thomas@includable.com",
+        "name": "Thomas Schoffelen",
+        "repos": [
+            "website"
+        ]
+    },
+    "victorquinn": {
+        "email": "mail@victorquinn.com",
+        "name": "Victor Quinn",
+        "repos": [
+            "docs"
+        ]
+    },
+    "vikaskyadav": {
+        "email": "vikasharry03@gmail.com",
+        "name": "Vikas Kumar Yadav",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "wodka": {
+        "email": "michael.schramm@gmail.com",
+        "name": "Michael Schramm",
+        "repos": [
+            "docs"
+        ]
+    },
+    "xmo-odoo": {
+        "email": null,
+        "name": null,
+        "repos": [
+            "docs"
+        ]
+    },
+    "xunzhang": {
+        "email": "xunzhang@apache.org",
+        "name": "Hong Wu",
+        "repos": [
+            "docs"
+        ]
+    },
+    "zdenekdrahos": {
+        "email": null,
+        "name": "Zden\u011bk Draho\u0161",
+        "repos": [
+            "docs"
+        ]
+    },
+    "zoek1": {
+        "email": "os.aioria@gmail.com",
+        "name": "Miguel Angel Gordi\u00e1n",
+        "repos": [
+            "dApp",
+            "website"
+        ]
+    },
+    "ztoolson": {
+        "email": null,
+        "name": "Zach Toolson",
+        "repos": [
+            "docs"
+        ]
+    }
+}

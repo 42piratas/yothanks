@@ -1,5 +1,9 @@
-{name},
+Hey {name}!
 
-Thanks!
+I wanted to reach out and say thanks for contributing to MARKET Protocol. We are really excited that people like yourself are getting involved to help us to build the decentralized future!  Your help with the dependencies to the main site, as well as the date picker will all help to make for a better UX.
 
-42
+We have a lot more work to be done, and hope you will join us in accomplishing our goals!
+
+p.s. what do you think of our update docs.marketprotocol.io?
+
+Have a great weekend!
