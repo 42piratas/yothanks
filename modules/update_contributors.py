@@ -1,3 +1,5 @@
+#! /Users/42piratas/.virtualenvs/yothanks/bin/python
+
 '''
 This script gets the updated dictionary of contributors 'contributors'
 created by 'scraphub.py', compares it with the saved dictionary of
@@ -50,7 +52,11 @@ def upd_contributors():
             # Uncomment the line below to create record with repos
             # md_record = ("@{} contributed to {};   \n".format(contributor, repos))
             if contributors[contributor]['name'] != None:
-                md_record = ("{} @{}   \n".format(contributors[contributor]['name'], contributor))
+
+                md_record = ('| <img src="{}" width="100px;"/><br /><sub><b>@{}</b></sub> |'.format(
+                    contributors[contributor]['avatar'], contributor))
+
+                #md_record = ("{} @{}   \n".format(contributors[contributor]['name'], contributor))
                 md_file.write(md_record)
             else:
                 md_record = ("@{}   \n".format(contributor))

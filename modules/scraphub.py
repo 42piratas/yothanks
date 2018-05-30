@@ -1,3 +1,5 @@
+#! /Users/42piratas/.virtualenvs/yothanks/bin/python
+
 '''
 This script outputs a dictionary containing all-time contributors
 from all repositories linked to the GH Access Token provided
@@ -28,6 +30,7 @@ for repo in repos:
         if contributor.login not in contributors:
             contributors[contributor.login] = {'name': contributor.name,
                                                'email': contributor.email,
+                                               'avatar': contributor.avatar_url,
                                                'repos': [repo.name]}
         else:
             contributors[contributor.login]['repos'].append(repo.name)
