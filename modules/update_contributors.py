@@ -46,9 +46,15 @@ def upd_contributors():
         md_file.write("# Contributors \n")
         for contributor in contributors:
 
-            repos = ", ".join(contributors[contributor]['repos'])
-            md_record = ("@{} contributed to {} \n".format(contributor, repos))
-            md_file.write(md_record)
+            # repos = ", ".join(contributors[contributor]['repos'])
+            # Uncomment the line below to create record with repos
+            # md_record = ("@{} contributed to {};   \n".format(contributor, repos))
+            if contributors[contributor]['name'] != None:
+                md_record = ("{} @{}   \n".format(contributors[contributor]['name'], contributor))
+                md_file.write(md_record)
+            else:
+                md_record = ("@{}   \n".format(contributor))
+                md_file.write(md_record)
 
 
 if __name__ == "__main__":

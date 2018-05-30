@@ -17,7 +17,9 @@ gh_org = octocat.get_organization(organization)
 repos = []
 for repo in gh_org.get_repos():
     if repo.permissions.push:
-        repos.append(repo)
+        # We are excluding contributors from repo 'docs'
+        if repo.name != "docs":
+            repos.append(repo)
 
 # Create a list with all-time contributors
 contributors = {}
