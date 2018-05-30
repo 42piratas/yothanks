@@ -53,7 +53,7 @@ def upd_contributors():
             # md_record = ("@{} contributed to {};   \n".format(contributor, repos))
             if contributors[contributor]['name'] != None:
 
-                md_record = ('<img src="{}" width="100px;"/><br /><sub><b>@{}</b></sub> <br />'.format(
+                md_record = ('<img src="{}" width="100px;"/>\n@{}   \n'.format(
                     contributors[contributor]['avatar'], contributor))
 
                 #md_record = ("{} @{}   \n".format(contributors[contributor]['name'], contributor))
