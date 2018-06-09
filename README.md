@@ -8,7 +8,7 @@
 
 ## how-to  
 
-Please, check the [INSTRUCTIONS](https://github.com/42piratas/yothanks/blob/master/INSTRUCTIONS).
+Please, check the [INSTRUCTIONS](https://github.com/42piratas/yothanks/blob/master/INSTRUCTIONS.md).
 
 ## lots of :heart: to 
 
