@@ -30,4 +30,4 @@ githubtoken = "your_GitHub_Access_Token_here"
 $ cd modules
 $ python yo_thanks.py
 ```
-- Or play with the different modules individually to see what happen :metal:
+- Or play with the different modules individually to see what happens :metal:
