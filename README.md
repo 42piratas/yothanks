@@ -13,3 +13,5 @@ Please, check the [INSTRUCTIONS](https://github.com/42piratas/yothanks/blob/mast
 ## lots of :heart: to 
 
 [Python](https://www.python.org), [PyGithub](https://pypi.org/project/PyGithub/), [yagmail](http://pygithub.readthedocs.io),  [Colorama](https://pypi.org/project/colorama/), [The Octocat](https://github.com/octocat) 
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
