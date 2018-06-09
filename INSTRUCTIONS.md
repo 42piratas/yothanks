@@ -1,7 +1,7 @@
 # Instructions
 
 - Requires [Python 3](https://www.python.org/downloads/)
-- It **might** require that you allow `less secure apps` on your Gmail account [panic-face] > https://myaccount.google.com/lesssecureapps
+- It **might** require that you allow `less secure apps` on your Gmail account :sweat_smile: https://myaccount.google.com/lesssecureapps
 - Clone this repository and install the requirements
 ```
 $ git clone https://github.com/42piratas/yothanks.git
