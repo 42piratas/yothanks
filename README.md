@@ -1,5 +1,5 @@
 # yo, thanks!
-**tl;dr** Send thank you emails to the contributors of your repos.
+**tl;dr** Send thank you emails to the contributors of your projects on GitHub.
 
 
 ## what?
