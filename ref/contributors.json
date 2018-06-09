@@ -1,7 +1,7 @@
 {
     "42piratas": {
         "avatar": "https://avatars1.githubusercontent.com/u/18232600?v=4",
-        "email": "a@42p.me",
+        "email": null,
         "name": "\u00e2ndrsnq",
         "repos": [
             "MARKETProtocol",
@@ -18,7 +18,8 @@
         "email": "christieck@msoe.edu",
         "name": "Connor Christie",
         "repos": [
-            "dApp"
+            "dApp",
+            "types"
         ]
     },
     "D-Nice": {
@@ -62,14 +63,6 @@
             "dApp"
         ]
     },
-    "NFhbar": {
-        "avatar": "https://avatars3.githubusercontent.com/u/23327624?v=4",
-        "email": null,
-        "name": "Nicolas Frega",
-        "repos": [
-            "MARKETProtocol"
-        ]
-    },
     "Smona": {
         "avatar": "https://avatars1.githubusercontent.com/u/7091399?v=4",
         "email": "mason.bourgeois@gmail.com",
@@ -99,6 +92,7 @@
         "email": "arunkumarm1995@gmail.com",
         "name": "Arun Kumar",
         "repos": [
+            "MARKETProtocol",
             "dApp",
             "website"
         ]
@@ -160,7 +154,9 @@
         "name": "Eswara Sai",
         "repos": [
             "dApp",
-            "website"
+            "website",
+            "MARKET.js",
+            "types"
         ]
     },
     "iamonuwa": {
@@ -185,14 +181,6 @@
         "name": "Jinto Jose",
         "repos": [
             "website"
-        ]
-    },
-    "kfichter": {
-        "avatar": "https://avatars1.githubusercontent.com/u/14298799?v=4",
-        "email": "kelvinfichter@gmail.com",
-        "name": "Kelvin Fichter",
-        "repos": [
-            "ethereum-bridge"
         ]
     },
     "kylewu": {
@@ -277,7 +265,8 @@
             "website",
             "market-api",
             "community",
-            "MARKET.js"
+            "MARKET.js",
+            "types"
         ]
     },
     "perfectmak": {
@@ -333,6 +322,14 @@
         "name": "Sarala Rambhapuri",
         "repos": [
             "dApp"
+        ]
+    },
+    "shamardy": {
+        "avatar": "https://avatars0.githubusercontent.com/u/39480341?v=4",
+        "email": null,
+        "name": null,
+        "repos": [
+            "website"
         ]
     },
     "tschoffelen": {

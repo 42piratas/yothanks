@@ -46,20 +46,35 @@ def upd_contributors():
     with open(contributors_md, 'w') as md_file:
 
         md_file.write("# Contributors \n")
+        # md_file.write("---- | ---- | ---- | ---- | ---- | ---- | ---- \n")
+
         for contributor in contributors:
 
+            # >>>>> TO ADD THE REPOS TO THE RECORDS
             # repos = ", ".join(contributors[contributor]['repos'])
             # Uncomment the line below to create record with repos
             # md_record = ("@{} contributed to {};   \n".format(contributor, repos))
+
             if contributors[contributor]['name'] != None:
 
-                md_record = ('<img src="{}" width="100px;"/>    \n@{}    \n \n'.format(
-                    contributors[contributor]['avatar'], contributor))
+                md_record = ('{} @{}    \n'.format(
+                    contributors[contributor]['name'], contributor))
                 #md_record = ("{} @{}    \n".format(contributors[contributor]['name'], contributor))
                 md_file.write(md_record)
             else:
                 md_record = ("@{}    \n".format(contributor))
                 md_file.write(md_record)
+
+            # >>>>> TO CREATE A TABLE WITH AVATARS
+            # if contributors[contributor]['name'] != None:
+            #
+            #     md_record = ('| <img src="{}" width="100px;"/>    \n@{}    \n \n'.format(
+            #         contributors[contributor]['avatar'], contributor))
+            #     #md_record = ("{} @{}    \n".format(contributors[contributor]['name'], contributor))
+            #     md_file.write(md_record)
+            # else:
+            #     md_record = ("@{}    \n".format(contributor))
+            #     md_file.write(md_record)
 
 
 if __name__ == "__main__":
