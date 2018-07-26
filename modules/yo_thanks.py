@@ -2,7 +2,7 @@ import logging
 
 from colorama import init, Back, Style  # https://pypi.org/project/colorama/
 
-from update_contributors import new_contributors, find_contributors, upd_contributors
+from update_contributors import new_contributors, find_new_contributors, upd_contributors
 from send_thanks import send_thanks
 
 # Logger
@@ -21,7 +21,7 @@ new_contributors_with_email = {}
 # A dictionary for new contributors WITHOUT public email
 new_contributors_wo_email = {}
 
-find_contributors()
+find_new_contributors()
 
 if bool(new_contributors) == False:
     print('\n')

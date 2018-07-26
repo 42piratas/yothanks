@@ -84,8 +84,7 @@ if __name__ == "__main__":
 
     find_new_contributors()
 
-    # COMMENT BELOW TO deactivated/commented to
-    # not update contributors.json in test mode
+    # COMMENT BELOW TO NOT update contributors.json in test mode
     upd_contributors()
 
     if not new_contributors:

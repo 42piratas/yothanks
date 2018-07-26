@@ -34,9 +34,8 @@ def send_thanks(recipients):
         contents = [txt]
         yag.send(recipients[recipient][1], email_subject, contents)
 
+
 # TEST MODE
-
-
 if __name__ == "__main__":
 
     recipients = {}

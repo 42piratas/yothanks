@@ -1,7 +1,7 @@
 {
     "42piratas": {
         "avatar": "https://avatars1.githubusercontent.com/u/18232600?v=4",
-        "email": null,
+        "email": "a@42p.me",
         "name": "\u00e2ndrsnq",
         "repos": [
             "MARKETProtocol",
@@ -41,7 +41,7 @@
     },
     "ImgBotApp": {
         "avatar": "https://avatars1.githubusercontent.com/u/31427850?v=4",
-        "email": null,
+        "email": "ImgBotHelp@gmail.com",
         "name": "ImgBot",
         "repos": [
             "website"
@@ -60,7 +60,9 @@
         "email": "ken.u.diggitt@gmail.com",
         "name": "Kenneth Ashley",
         "repos": [
-            "dApp"
+            "dApp",
+            "website",
+            "MARKET.js"
         ]
     },
     "Smona": {
@@ -76,7 +78,11 @@
         "email": null,
         "name": null,
         "repos": [
-            "market-api"
+            "dApp",
+            "website",
+            "market-api",
+            "MARKET.js",
+            "types"
         ]
     },
     "arkgast": {
@@ -94,6 +100,17 @@
         "repos": [
             "MARKETProtocol",
             "dApp",
+            "website",
+            "MARKET.js",
+            "types"
+        ]
+    },
+    "bakaoh": {
+        "avatar": "https://avatars1.githubusercontent.com/u/4920000?v=4",
+        "email": null,
+        "name": null,
+        "repos": [
+            "dApp",
             "website"
         ]
     },
@@ -110,6 +127,7 @@
         "email": "brady.sherid@gmail.com",
         "name": "Brady Sheridan",
         "repos": [
+            "dApp",
             "website"
         ]
     },
@@ -137,7 +155,17 @@
         "repos": [
             "MARKETProtocol",
             "ethereum-bridge",
-            "dApp"
+            "dApp",
+            "MARKET.js"
+        ]
+    },
+    "dilatebrave": {
+        "avatar": "https://avatars0.githubusercontent.com/u/39254739?v=4",
+        "email": null,
+        "name": null,
+        "repos": [
+            "dApp",
+            "website"
         ]
     },
     "dreday966": {
@@ -159,11 +187,20 @@
             "types"
         ]
     },
+    "hbeckeri": {
+        "avatar": "https://avatars2.githubusercontent.com/u/8557965?v=4",
+        "email": "hbeckerich@torchlite.com",
+        "name": "Harrison Beckerich",
+        "repos": [
+            "website"
+        ]
+    },
     "iamonuwa": {
         "avatar": "https://avatars1.githubusercontent.com/u/6551094?v=4",
         "email": "matrix4u2002@gmail.com",
         "name": "Onuwa Nnachi Isaac",
         "repos": [
+            "dApp",
             "website"
         ]
     },
@@ -175,6 +212,14 @@
             "ethereum-bridge"
         ]
     },
+    "j10sanders": {
+        "avatar": "https://avatars3.githubusercontent.com/u/11084414?v=4",
+        "email": null,
+        "name": "Jonathan Sanders",
+        "repos": [
+            "dApp"
+        ]
+    },
     "jintoppy": {
         "avatar": "https://avatars3.githubusercontent.com/u/3390198?v=4",
         "email": "jintoppy@gmail.com",
@@ -183,10 +228,34 @@
             "website"
         ]
     },
+    "kelvintyb": {
+        "avatar": "https://avatars0.githubusercontent.com/u/3264337?v=4",
+        "email": "kelvin.tyb@gmail.com",
+        "name": "Kelvin Tan Yeow Boon",
+        "repos": [
+            "types"
+        ]
+    },
+    "kfichter": {
+        "avatar": "https://avatars1.githubusercontent.com/u/14298799?v=4",
+        "email": null,
+        "name": "Kelvin Fichter",
+        "repos": [
+            "ethereum-bridge"
+        ]
+    },
     "kylewu": {
         "avatar": "https://avatars0.githubusercontent.com/u/180198?v=4",
         "email": "admin@wenbinwu.com",
         "name": "Wenbin Wu",
+        "repos": [
+            "website"
+        ]
+    },
+    "lakikentaki": {
+        "avatar": "https://avatars2.githubusercontent.com/u/39289842?v=4",
+        "email": null,
+        "name": "Lazar Jovanovic",
         "repos": [
             "website"
         ]
@@ -215,6 +284,14 @@
             "MARKETProtocol"
         ]
     },
+    "mikestonecodes": {
+        "avatar": "https://avatars3.githubusercontent.com/u/1703689?v=4",
+        "email": "michaeljacobstone@gmail.com",
+        "name": "mike stone",
+        "repos": [
+            "dApp"
+        ]
+    },
     "nepalbitcoin": {
         "avatar": "https://avatars2.githubusercontent.com/u/13423662?v=4",
         "email": null,
@@ -238,6 +315,22 @@
         "name": null,
         "repos": [
             "ethereum-bridge"
+        ]
+    },
+    "octavioamu": {
+        "avatar": "https://avatars2.githubusercontent.com/u/1358093?v=4",
+        "email": null,
+        "name": "Octavio Amuch\u00e1stegui",
+        "repos": [
+            "dApp"
+        ]
+    },
+    "palevoo": {
+        "avatar": "https://avatars3.githubusercontent.com/u/21197100?v=4",
+        "email": null,
+        "name": "Nikita Kudryavtsev",
+        "repos": [
+            "website"
         ]
     },
     "pchuck": {
@@ -266,7 +359,8 @@
             "market-api",
             "community",
             "MARKET.js",
-            "types"
+            "types",
+            "service-listener"
         ]
     },
     "perfectmak": {
@@ -277,7 +371,8 @@
             "MARKETProtocol",
             "ethereum-bridge",
             "dApp",
-            "website"
+            "website",
+            "MARKET.js"
         ]
     },
     "pfilippi24": {
@@ -305,6 +400,7 @@
             "dApp",
             "website",
             "market-api",
+            "community",
             "MARKET.js"
         ]
     },
@@ -312,6 +408,14 @@
         "avatar": "https://avatars0.githubusercontent.com/u/16962433?v=4",
         "email": "rowlandrzhang@gmail.com",
         "name": "Rowland Zhang",
+        "repos": [
+            "website"
+        ]
+    },
+    "rpunkfu": {
+        "avatar": "https://avatars1.githubusercontent.com/u/7048281?v=4",
+        "email": "oskarcieslik@gmail.com",
+        "name": "Oskar Cieslik",
         "repos": [
             "website"
         ]
@@ -330,6 +434,32 @@
         "name": null,
         "repos": [
             "website"
+        ]
+    },
+    "subramanianv": {
+        "avatar": "https://avatars2.githubusercontent.com/u/2791921?v=4",
+        "email": "subramanian.bsv@gmail.com",
+        "name": "Subramanian Venkatesan",
+        "repos": [
+            "MARKET.js"
+        ]
+    },
+    "tommycox": {
+        "avatar": "https://avatars0.githubusercontent.com/u/3009533?v=4",
+        "email": "tommy.cox@protonmail.com",
+        "name": "Tommy Cox",
+        "repos": [
+            "MARKET.js"
+        ]
+    },
+    "travisdmathis": {
+        "avatar": "https://avatars0.githubusercontent.com/u/1335198?v=4",
+        "email": "travis@grillwork.io",
+        "name": "Travis Mathis",
+        "repos": [
+            "MARKETProtocol",
+            "dApp",
+            "service-listener"
         ]
     },
     "tschoffelen": {
