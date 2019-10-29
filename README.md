@@ -1,6 +1,6 @@
 # yo, thanks!
 
-**tl;dr** Easily send thank you emails to the contributors of your projects on GitHub.
+**tl;dr** Easily send thank you emails to contributors of your projects on GitHub.
 
 ## what? 
 
