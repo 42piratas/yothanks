@@ -1,5 +1,7 @@
 # DEPRECATED PROJECT!
 
+[![No Maintenance Intended](https://unmaintained.tech/badge.svg)](https://unmaintained.tech/)
+
 ## yo, thanks!
 
 **tl;dr** Easily send thank you emails to contributors of your projects on GitHub.
